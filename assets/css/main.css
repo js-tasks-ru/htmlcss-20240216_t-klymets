@@ -29,6 +29,8 @@
     --border-radius: 8px;
 
     --disabled-opacity: 0.5;
+
+    --transition-style: 200ms ease-in-out;
 }
 
 * {

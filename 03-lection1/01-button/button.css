@@ -14,6 +14,7 @@
     border-radius: var(--border-radius);
     border-style: solid;
     box-sizing: border-box;
+    transition: background-color var(--transition-style), border var(--transition-style), opacity var(--transition-style);
 }
 
 .button[disabled],
