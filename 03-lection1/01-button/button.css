@@ -28,7 +28,8 @@
     border-color: var(--primary);
 }
 
-.button_primary:hover {
+.button_primary:hover,
+.button_primary:active {
     background-color: var(--primary-hover);
     border-color: var(--primary-hover);
 }
@@ -39,7 +40,8 @@
     border-color: var(--secondary);
 }
 
-.button_secondary:hover {
+.button_secondary:hover,
+.button_secondary:active {
     background-color: var(--secondary-hover);
     border-color: var(--secondary-hover);
 }
@@ -50,7 +52,8 @@
     border-color: var(--grey-3);
 }
 
-.button_alternate:hover {
+.button_alternate:hover,
+.button_alternate:active {
     background-color: var(--white);
     border-color: var(--alternate-hover);
 }
