@@ -2,6 +2,7 @@
 @import '../fonts/fonts.css';
 
 :root {
+    /* Colors */
     --white: #ffffff;
     --black: #212429;
     --pink: #F784AD;
@@ -26,6 +27,16 @@
     --secondary-hover: var(--purple-2);
     --alternate-hover: var(--black);
 
+    /* Typography */
+    --primary-font-family: "Inter", "Roboto", sans-serif;
+    --secondary-font-family: "Roboto", sans-serif;
+
+    --font-size-m: 16px;
+    --font-weight-m: 400;
+    --line-height-m: 24px;
+
+
+    /* Other params */
     --border-radius: 8px;
 
     --disabled-opacity: 0.5;
@@ -34,5 +45,5 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font-family);
 }

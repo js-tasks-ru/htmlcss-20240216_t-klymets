@@ -12,6 +12,9 @@
     width: 182px;
     border-width: 1px;
     border-radius: var(--border-radius);
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-m);
     border-style: solid;
     box-sizing: border-box;
     transition: background-color var(--transition-style), border var(--transition-style), opacity var(--transition-style);
