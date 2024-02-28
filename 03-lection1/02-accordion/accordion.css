@@ -4,9 +4,9 @@
 
 .accordion__summary {
     color: var(--black);
-    font-size: var(--p-font-size);
-    font-weight: var(--p-font-weight);
-    line-height: var(--p-line-height);
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-m);
+    line-height: var(--line-height-m);
     padding: 24px 32px;
     list-style: none; /* to hide arrow icon */
     cursor: pointer;
@@ -14,9 +14,9 @@
 
 .accordion__content {
     color: var(--grey-4);
-    font-size: var(--p-font-size);
-    font-weight: var(--p-font-weight);
-    line-height: var(--p-line-height);
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-m);
+    line-height: var(--line-height-m);
     margin: 0;
     padding: 0 32px 32px 32px;
 }
