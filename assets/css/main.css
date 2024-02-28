@@ -17,6 +17,12 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    /* Typography */
+
+    --p-font-size: 16px;
+    --p-line-height: 24px;
+    --p-font-weight: 400;
 }
 
 * {
