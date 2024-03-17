@@ -1,0 +1,7 @@
+.header__title{
+    font-family: var(--primary-font-family);
+    font-size: var(--font-size-title-xl);
+    font-weight: var(--font-weight-title-xl);
+    line-height:  var(--line-height-title-xl);
+    color: var(--primary-text-color);
+}
