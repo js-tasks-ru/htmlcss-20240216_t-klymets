@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--primary-background-color);
+}
+
+.footer__title {
+    font-family: var(--primary-font-family);
+    font-size: var(--font-size-title-l);
+    font-weight: var(--font-weight-title-l);
+    line-height:  var(--line-height-title-l);
+    color: var(--primary-text-color);
+}

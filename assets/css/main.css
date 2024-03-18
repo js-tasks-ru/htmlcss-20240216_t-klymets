@@ -1,5 +1,11 @@
 @import "./normalize.css";
-@import '../fonts/fonts.css';
+@import "../fonts/fonts.css";
+@import "../../components/page/index.css";
+@import "../../components/header/index.css";
+@import "../../components/preview/index.css";
+@import "../../components/card/index.css";
+@import "../../components/footer/index.css";
+@import "../../components/container/index.css";
 
 :root {
     /* Colors */
@@ -27,14 +33,25 @@
     --secondary-hover: var(--purple-2);
     --alternate-hover: var(--black);
 
+    --primary-text-color: var(--black);
+
+    --primary-background-color: var(--white);
+
     /* Typography */
     --primary-font-family: "Inter", "Roboto", sans-serif;
     --secondary-font-family: "Roboto", sans-serif;
 
+    --font-size-title-xl: 50px;
+    --font-weight-title-xl: 500;
+    --line-height-title-xl: 64px;
+
+    --font-size-title-l: 38px;
+    --font-weight-title-l: 500;
+    --line-height-title-l: 48px;
+
     --font-size-m: 16px;
     --font-weight-m: 400;
     --line-height-m: 24px;
-
 
     /* Other params */
     --border-radius: 8px;
@@ -46,4 +63,8 @@
 
 * {
     font-family: var(--primary-font-family);
+}
+
+html, body {
+    min-height: 100vh;
 }
