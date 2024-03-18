@@ -1,8 +1,11 @@
 @import "./normalize.css";
 @import "../fonts/fonts.css";
+@import "../../components/page/index.css";
 @import "../../components/header/index.css";
-@import "../../components/main/index.css";
+@import "../../components/preview/index.css";
+@import "../../components/card/index.css";
 @import "../../components/footer/index.css";
+@import "../../components/container/index.css";
 
 :root {
     /* Colors */
@@ -32,6 +35,8 @@
 
     --primary-text-color: var(--black);
 
+    --primary-background-color: var(--white);
+
     /* Typography */
     --primary-font-family: "Inter", "Roboto", sans-serif;
     --secondary-font-family: "Roboto", sans-serif;
@@ -58,4 +63,8 @@
 
 * {
     font-family: var(--primary-font-family);
+}
+
+html, body {
+    min-height: 100vh;
 }
