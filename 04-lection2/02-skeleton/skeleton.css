@@ -2,6 +2,7 @@
     border: 1px solid var(--grey-3);
     padding: 24px 32px 40px;
     box-sizing: border-box;
+    border-radius: var(--border-radius);
 }
 
 .skeleton__header {
@@ -38,20 +39,16 @@
 
 .skeleton__line_size-xs {
     width: 30%;
-    max-width: 172px;
 }
 
 .skeleton__line_size-s {
     width: 50%;
-    max-width: 257px;
 }
 
 .skeleton__line_size-m {
     width: 70%;
-    max-width: 475px;
 }
 
 .skeleton__line_size-l {
     width: 90%;
-    max-width: 515px;
 }
