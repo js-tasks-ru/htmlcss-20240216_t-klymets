@@ -37,6 +37,9 @@
 
     --primary-background-color: var(--white);
 
+    --tooltip-background-color: var(--black);
+
+
     /* Typography */
     --primary-font-family: "Inter", "Roboto", sans-serif;
     --secondary-font-family: "Roboto", sans-serif;
