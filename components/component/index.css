@@ -1,0 +1,11 @@
+.component {
+    background-color: var(--primary-background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--primary-box-shadow);
+}
+
+.component__title {
+    font-size: var(--font-size-title-m);
+    font-weight: var(--font-weight-title-m);
+    line-height:  var(--line-height-title-m);
+}

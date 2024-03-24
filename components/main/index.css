@@ -1,0 +1,10 @@
+.main {
+    background-color: var(--secondary-background-color);
+    width: 100%;
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    justify-self: center;
+}
+
