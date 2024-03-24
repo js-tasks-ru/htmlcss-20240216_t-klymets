@@ -15,7 +15,7 @@
     line-height: var(--line-height-m);
     color: var(--grey-2);
     background-color: var(--tooltip-background-color);
-    box-shadow: 0 2px 4px 0 #2124290D;
+    box-shadow: var(--primary-box-shadow);
     border-radius: 10px;
     white-space: nowrap;
     text-align: center;
