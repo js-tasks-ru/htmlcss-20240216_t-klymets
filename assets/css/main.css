@@ -7,6 +7,9 @@
 @import "../../components/card/index.css";
 @import "../../components/footer/index.css";
 @import "../../components/container/index.css";
+@import "../../components/main/index.css";
+@import "../../components/menu/index.css";
+@import "../../components/component/index.css";
 
 :root {
     /* Colors */
@@ -40,6 +43,7 @@
     --primary-text-color: var(--black);
 
     --primary-background-color: var(--white);
+    --secondary-background-color: #F9FAFC;
 
     --tooltip-background-color: var(--black);
 
@@ -59,6 +63,10 @@
     --font-weight-title-l: 500;
     --line-height-title-l: 48px;
 
+    --font-size-title-m: 28px;
+    --font-weight-title-m: 400;
+    --line-height-title-m: 38px;
+
     --font-size-title-s: 20px;
     --font-weight-title-s: 400;
     --line-height-title-s: 26px;
@@ -74,6 +82,8 @@
     --disabled-opacity: 0.5;
 
     --transition-style: 200ms ease-in-out;
+
+    --primary-box-shadow: 0 2px 4px 0 #2124290D;
 }
 
 * {

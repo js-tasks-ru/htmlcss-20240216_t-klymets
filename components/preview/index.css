@@ -1,5 +1,5 @@
 .preview {
-    background-color: #F9FAFC;
+    background-color: var(--secondary-background-color);
     padding: 67px 0 92px;
 }
 
